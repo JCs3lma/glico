@@ -15,5 +15,6 @@
   <header>
     <div class="logo">
       <img src="<?= $source;?>/assets/img/logo.png" alt="logo">
+      <div><h1>test</h1></div>
     </div>
   </header>
