@@ -1,0 +1,32 @@
+
+/* Terms and Condition */
+#terms .sticky-container {
+  height: calc(100% - 59.5px);
+}
+
+#terms .terms-content__title {
+  text-align: center;
+  margin: 15px 0;
+}
+
+#terms .terms-content__content {
+  text-align: justify;
+  margin: 0 6px;
+}
+
+#terms .terms-content__footer {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#terms .row.sticky {
+  overflow: scroll;
+  /*
+    header = 59.5px 
+    terms and Conditions title = 30px
+    description = 48px
+    adjustments = 40px
+  */
+  height: calc(100vh - (59.5px + 30px + 48px + 40px));
+}

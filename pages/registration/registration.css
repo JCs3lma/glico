@@ -1,0 +1,14 @@
+#registration {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px);
+  justify-content: space-between;
+}
+
+#registration .registration-form {
+  margin: 10px 20px;
+}
+
+#registration .group-button-container button.btn {
+  flex: 1;
+}

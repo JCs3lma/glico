@@ -1,0 +1,182 @@
+:root {
+  --glico-x: 1.5rem;
+  --glico-y: 0;
+  --danger: #f44337;
+  --active-danger: #a8271f;
+  --success: #0d8f23;
+  --container-bg: #faf3f0;
+  --card-bg: #d2d2d2;
+  --default-hover: #d5d5d5;
+  --form-inputs-radius: 15px;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Removing Scroll bar to all elements */
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+body {
+  margin: 5px auto;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* General CSS */
+.container {
+  padding-right: var(--glico-x, .75rem);
+  padding-left: var(--glico-x, .75rem);
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.row {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.round-container {
+  margin: 0 auto;
+  padding: 12px;
+  background-color: var(--container-bg);
+  border-radius: 40px;
+  font-weight: 600;
+}
+
+/* Header */
+.logo {
+  width: 100px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+/* Button */
+.btn,
+a.btn {
+  padding: 10px;
+  min-width: 130px;
+  min-height: 45px;
+  border-radius: 17px;
+  border: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--default-hover);
+}
+
+.btn.danger {
+  background-color: var(--danger);
+}
+
+.btn.success {
+  background-color: var(--success);
+}
+
+.group-button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Select and Inputs */
+.form-select-input select {
+  background-color: #fff;
+  width: 100%;
+  border: 0;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: var(--form-inputs-radius);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('../img/dropdown-icon.png');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 97%;
+  margin-bottom: 20px;
+}
+
+.form-select-input select.small-icon {
+  background-size: 15px;
+  background-position: 90%;
+}
+
+/* for Firefox */
+.form-select-input select::-moz-focus-inner {
+  border: none;
+}
+
+.form-select-input label span.required {
+  color: red;
+}
+
+.group-form-select .input-container {
+  display: flex;
+  width: 100%;
+  gap: 12px;
+}
+
+.group-form-select .form-select-input {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.group-form-select label span.required {
+  color: red;
+}
+
+.form-select-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-select-input input {
+  border: 0;
+  border-radius: var(--form-inputs-radius);
+  padding: 10px;
+}
+
+/* Navbar */
+ul.navigation-bar {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+ul.navigation-bar li {
+  flex: 1;
+  background-color: var(--danger);
+  text-align: center;
+}
+
+ul.navigation-bar li a {
+  text-decoration: none;
+  color: #fff;
+}
