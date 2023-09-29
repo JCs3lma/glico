@@ -11,16 +11,31 @@
     </div>
     <div class="row sticky">
       <div class="round-container">
-        <div class="terms-content__title">TITLE FOR TERMS</div>
+        <div class="terms-content__title">利用規約</div>
         <div class="terms-content__content">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facere deserunt molestias, officia ipsam, nihil quos animi, nam odio fugit maxime veniam possimus consequuntur temporibus veritatis? Neque, dolorem explicabo?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facere deserunt molestias, officia ipsam, nihil quos animi, nam odio fugit maxime veniam possimus consequuntur temporibus veritatis? Neque, dolorem explicabo?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facere deserunt molestias, officia ipsam, nihil quos animi, nam odio fugit maxime veniam possimus consequuntur temporibus veritatis? Neque, dolorem explicabo?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facere deserunt molestias, officia ipsam, nihil quos animi, nam odio fugit maxime veniam possimus consequuntur temporibus veritatis? Neque, dolorem explicabo?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facere deserunt molestias, officia ipsam, nihil quos animi, nam odio fugit maxime veniam possimus consequuntur temporibus veritatis? Neque, dolorem explicabo?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facere deserunt molestias, officia ipsam, nihil quos animi, nam odio fugit maxime veniam possimus consequuntur temporibus veritatis? Neque, dolorem explicabo?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facere deserunt molestias, officia ipsam, nihil quos animi, nam odio fugit maxime veniam possimus consequuntur temporibus veritatis? Neque, dolorem explicabo?
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus facere deserunt molestias, officia ipsam, nihil quos animi, nam odio fugit maxime veniam possimus consequuntur temporibus veritatis? Neque, dolorem explicabo?
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
+          ダミーテキストダミーテキストダミーテキスト
         </div>
         <div class="terms-content__footer">
           <button class="btn danger">Accept</button>

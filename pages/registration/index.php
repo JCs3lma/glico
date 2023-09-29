@@ -1,6 +1,3 @@
-<?php
-  $navbar = true;
-?>
 <?php include "../../layouts/header.php"?>
 
 <!-- Calling CSS Specifically to registration goes here -->
