@@ -2,9 +2,6 @@
   <a href="pages/terms" class="btn danger">Terms</a>
   <a href="pages/registration" class="btn danger">Register</a>
   <a href="pages/qr-reading" class="btn danger">QR Reading</a>
-
-
-
   <hr>
   <h1>Docs</h1>
   <h4>How to include navbar to each page?</h4>
@@ -14,8 +11,9 @@
     padding-top: 10px;
     color: #fff;
   ">
-    &lt;?php
+    <?php
       $navbar = true;
-    ?&gt;
+    ?>
+  
   </pre>
 <?php include "layouts/footer.php"?>

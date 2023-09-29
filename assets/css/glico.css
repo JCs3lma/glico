@@ -13,7 +13,7 @@
 html,
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: Yu Gothic;
 }
 
 /* Removing Scroll bar to all elements */
@@ -168,15 +168,31 @@ ul.navigation-bar {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  height: 85px;
+  margin-bottom: 0;
 }
 ul.navigation-bar li {
   flex: 1;
   background-color: var(--danger);
   text-align: center;
+  position: relative;
+  padding: 15px 0;
 }
-
 ul.navigation-bar li a {
   text-decoration: none;
   color: #fff;
+  font-size: 12px;
+}
+ul.navigation-bar img {
+  display: block;
+  margin: 0 auto;
+}
+ul.navigation-bar .coupon img{
+  padding: 6px 0;
+}
+ul.navigation-bar .other-menu div > span{
+  color: #fff;
+  font-size: 44px;
+  letter-spacing: -8px;
+  line-height: 30px;
 }

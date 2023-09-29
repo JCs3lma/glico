@@ -1,5 +1,5 @@
 <?php
-  $source = 'http://localhost/glecko';
+  $source = 'http://localhost/glico';
   $title = 'Home';
 ?>
 

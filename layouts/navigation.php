@@ -1,32 +1,36 @@
 <ul class="navigation-bar">
-  <li>
-    <i class="icon"></i>
+  <li class="top">
+    <img src="<?= $source;?>/assets/img/top-icon.png">
     <a href="">
-      <span>Home</span>
+      <span>トップページ</span>
     </a>
   </li>
-  <li>
-    <i class="icon"></i>
+  <li class="coupon">
+      <img src="<?= $source;?>/assets/img/coupon-icon.png">
     <a href="">
-      <span>Home</span>
+      <span>クーポン</span>
     </a>
   </li>
-  <li>
-    <i class="icon"></i>
+  <li class="questionnaire">
+      <img src="<?= $source;?>/assets/img/question-icon.png">
     <a href="">
-      <span>Home</span>
+      <span>アンケート</span>
     </a>
   </li>
-  <li>
-    <i class="icon"></i>
+  <li class="prod-info">
+    <img src="<?= $source;?>/assets/img/prod-info-icon.png">
     <a href="">
-      <span>Home</span>
+      <span>商品情報</span>
     </a>
   </li>
-  <li>
-    <i class="icon"></i>
+  <li class="other-menu">
+    <div>
+      <span>&#x2022;</span>
+      <span>&#x2022;</span>
+      <span>&#x2022;</span>
+    </div>
     <a href="">
-      <span>Home</span>
+      <span>その他メニュー</span>
     </a>
   </li>
 </ul>
