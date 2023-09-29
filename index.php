@@ -5,15 +5,15 @@
   <hr>
   <h1>Docs</h1>
   <h4>How to include navbar to each page?</h4>
-  <span>Put this to the tap of your code</span>
+  <span>Put this to the top of your code to include navbar</span>
   <pre style="
     background: black;
     padding-top: 10px;
     color: #fff;
   ">
-    <?php
+    &lt;?php
       $navbar = true;
-    ?>
+    ?&gt;
   
   </pre>
 <?php include "layouts/footer.php"?>
