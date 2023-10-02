@@ -2,6 +2,7 @@
   <a href="pages/terms" class="btn danger">Terms</a>
   <a href="pages/registration" class="btn danger">Register</a>
   <a href="pages/qr-reading" class="btn danger">QR Reading</a>
+  <a href="pages/top" class="btn danger">Top</a>
   <hr>
   <h1>Docs</h1>
   <h4>How to include navbar to each page?</h4>
