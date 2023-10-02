@@ -1,5 +1,6 @@
 <?php include "layouts/header.php"?>
   <div class="scrollable-y flex gap-10">
+  <a href="pages/faq" class="btn danger">FAQ</a>
     <a href="pages/terms" class="btn danger">Terms</a>
     <a href="pages/registration" class="btn danger">Register</a>
     <a href="pages/qr-reading" class="btn danger">QR Reading</a>

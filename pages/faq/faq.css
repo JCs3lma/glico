@@ -1,0 +1,49 @@
+
+/* Terms and Condition */
+#faq .sticky-container {
+    height: calc(100% - 59.5px);
+}
+
+
+
+#faq .content {
+text-align: justify;
+margin: 0 6px;
+}
+
+#faq .content .q-and-a{
+    margin: 20px 0px;
+}
+
+#faq .content .q-and-a .question,
+#faq .content .q-and-a .answer{
+    display: flex;
+    margin-top: 5px;
+}
+
+#faq .content .q-and-a .question .text,
+#faq .content .q-and-a .answer .text{
+    margin-left: 10px;
+}
+
+#faq .contact-us .title{
+    text-align: center;
+}
+
+#faq .contact-us .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#faq .row.sticky {
+overflow: scroll;
+/*
+    header = 59.5px 
+    terms and Conditions title = 30px
+    description = 48px
+    adjustments = 40px
+*/
+height: calc(100vh - (59.5px + 30px + 48px + 40px));
+}
