@@ -4,10 +4,14 @@
   --danger: #f44337;
   --active-danger: #a8271f;
   --success: #0d8f23;
+  --active-success: #047c18;
   --container-bg: #faf3f0;
   --card-bg: #d2d2d2;
   --default-hover: #d5d5d5;
   --form-inputs-radius: 15px;
+  --outline-dead-grey: #eeebeb;
+  --outline-dead-grey-text: #605f5f;
+  --button-active-hover-transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 html,
@@ -27,7 +31,7 @@ html {
 }
 
 body {
-  margin: 5px auto;
+  margin: 0 auto;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -62,6 +66,41 @@ body {
   margin: 0 !important;
 }
 
+.mt-10 {
+  margin-top: 1em !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.scrollable-y {
+  overflow-y: scroll;
+}
+.scrollable-x {
+  overflow-x: scroll;
+}
+
+.flex-direction-row {
+  flex-direction: row !important;
+}
+
+.flex-direction-row > * {
+  flex: 1;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
 .round-container {
   margin: 0 auto;
   padding: 12px;
@@ -85,23 +124,46 @@ body {
 a.btn {
   padding: 10px;
   min-width: 130px;
-  min-height: 45px;
   border-radius: 17px;
   border: 0;
   color: #fff;
   text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:active {
   background-color: var(--default-hover);
+  transition: var(--button-active-hover-transition);
 }
 
 .btn.danger {
   background-color: var(--danger);
 }
 
+.btn.danger:hover,
+.btn.danger:active {
+  background-color: var(--active-danger);
+  transition: var(--button-active-hover-transition);
+}
+
 .btn.success {
   background-color: var(--success);
+}
+.btn.success:hover,
+.btn.success:active {
+  background-color: var(--active-success);
+  transition: var(--button-active-hover-transition);
+}
+
+.btn.outline-grey {
+  background-color: var(--outline-dead-grey);
+  color: var(--outline-dead-grey-text);
+  border: 1px solid var(--outline-dead-grey-text);
 }
 
 .group-button-container {
@@ -125,7 +187,6 @@ a.btn {
   background-size: 30px;
   background-repeat: no-repeat;
   background-position: 97%;
-  margin-bottom: 20px;
 }
 
 .form-select-input select.small-icon {
@@ -152,6 +213,7 @@ a.btn {
   display: flex;
   flex-direction: row;
   flex: 1;
+  align-items: flex-end;
 }
 
 .group-form-select label span.required {
@@ -161,6 +223,7 @@ a.btn {
 .form-select-input {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .form-select-input input {

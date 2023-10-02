@@ -1,6 +1,6 @@
 <?php include "../../layouts/header.php"?>
 
-<!-- Calling CSS Specifically to registration goes here -->
+<!-- Calling CSS Specifically to qr-reading goes here -->
 <link rel="stylesheet" href="qr-reading.css">
 
 <!-- Content Goes Here -->
