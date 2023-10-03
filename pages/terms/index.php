@@ -38,7 +38,7 @@
           ダミーテキストダミーテキストダミーテキスト
         </div>
         <div class="terms-content__footer">
-          <button class="btn danger">Accept</button>
+          <button class="btn danger w-50 h-45px">Accept</button>
         </div>
       </div>
     </div>

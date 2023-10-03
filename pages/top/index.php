@@ -1,5 +1,6 @@
 <?php
   $navbar = true;
+  $header = false;
 ?>
 <?php include "../../layouts/header.php"?>
 
@@ -7,60 +8,89 @@
 <link rel="stylesheet" href="top.css">
 
 <!-- Content Goes Here -->
-<div id="top">
-    <div class="notice">
-        <div class="header">notice</div>
-        <div class="card">
-            <div class="notice-card">
-                <div class="notice-header">
-                    Image goes here
-                </div>
-                <div class="notice-body">
-                    <div>New products have been added!</div>
-                    <div>MM/DD/20XX</div>
+<div id="top" class="container">
+    <div class="row">
+        <h3>お知らせ</h3>
+    </div>
+    <div class="row">
+        <div class="carousel">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/18399245/pexels-photo-18399245/free-photo-of-brunette-woman-posing-on-a-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ここに画像が入ります" class="card-img-top">
+                <div class="card-body">
+                    <div class="card-title">新商品が追加されました！</div>
+                    <div class="card-text">20XX年MM月DD日</div>
                 </div>
             </div>
-            <div class="notice-card">
-                <div class="notice-header">
-                    Image goes here
+            <div class="card">
+            <img src="https://images.pexels.com/photos/18399245/pexels-photo-18399245/free-photo-of-brunette-woman-posing-on-a-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ここに画像が入ります" class="card-img-top">
+                <div class="card-body">
+                    <div class="card-title">新商品が追加されました！</div>
+                    <div class="card-text">20XX年MM月DD日</div>
                 </div>
-                <div class="notice-body">
-                    <div>New products have been added!</div>
-                    <div>MM/DD/20XX</div>
+            </div>
+            <div class="card">
+            <img src="https://images.pexels.com/photos/18399245/pexels-photo-18399245/free-photo-of-brunette-woman-posing-on-a-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ここに画像が入ります" class="card-img-top">
+                <div class="card-body">
+                    <div class="card-title">新商品が追加されました！</div>
+                    <div class="card-text">20XX年MM月DD日</div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="membership-rank">
-        <div class="header">Membership rank</div>
-        <div class="rank-container">
-            <div class="left-container">
-                <div>current rank</div>
-                <div>Until next rank</div>
-            </div>
-            <div class="right-container">
-                <div class="rank-name">chief</div>
-                <div class="next-rank-count">4 times</div>
-            </div>
-            <!-- <div class="current-rank">
-                <div>current rank</div>
-                <div class="rank-name">
-                    <div>chief</div>
+    <div class="row">
+        <h3>会員ランク</h3>
+    </div>
+    <div class="row">
+        <div class="membership-rank">
+            <div class="badge">
+                <div class="badge-container">    
+                    <div class="label-container">
+                        <label>現在のランク</label>
+                    </div>
+                    <div class="badge-container">
+                        <span class="badge">主任</span>
+                    </div>
+                </div>
+                <div class="badge-container">
+                    <div class="label-container">
+                        <label>次のランクまであと</label>
+                    </div>
+                    <div class="badge-container">
+                        <span class="badge">4回</span>
+                    </div>
                 </div>
             </div>
-            <div class="until-next-rank">
-                <div>Until next rank</div>
-                <div class="next-rank-count">
-                    <div>4 times</div>
-                </div>
-            </div> -->
+            <div class="progress">
+                <ul>
+                    <li>
+                        <label>主任</label>
+                        <span class="circle"></span>
+                    </li>
+                    <li>
+                        <label>課長</label>
+                        <span class="circle"></span>
+                    </li>
+                    <li>
+                        <label>部長</label>
+                        <span class="circle"></span>
+                    </li>
+                    <li>
+                        <label>常務</label>
+                        <span class="circle"></span>
+                    </li>
+                    <li>
+                        <label>専務</label>
+                        <span class="circle"></span>
+                    </li>
+                    <li>
+                        <label>社長</label>
+                        <span class="circle"></span>
+                    </li>
+                </ul>
+                <progress id="file" value="32" max="100"> 32% </progress>
+            </div>
+            <a href="" class="about-membership-rank">会員ランクについて</a>
         </div>
-    </div>
-    <div class="start-shopping">
-        Start shopping
-    </div>
-    <div class="how-to-use">
-        How to use
     </div>
 </div>
 <!-- End of Content -->
