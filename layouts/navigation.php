@@ -5,16 +5,19 @@
       <span>トップページ</span>
     </a>
   </li>
+  <li class="questionnaire">
+      <img src="<?= $source;?>/assets/img/question-icon.png">
+    <a href="">
+      <span>お買い物</span>
+    </a>
+  </li>
+  <li class="center-menu">
+    <span>マイページ</span>
+  </li>
   <li class="coupon">
       <img src="<?= $source;?>/assets/img/coupon-icon.png">
     <a href="">
       <span>クーポン</span>
-    </a>
-  </li>
-  <li class="questionnaire">
-      <img src="<?= $source;?>/assets/img/question-icon.png">
-    <a href="">
-      <span>アンケート</span>
     </a>
   </li>
   <li class="prod-info">
@@ -23,14 +26,5 @@
       <span>商品情報</span>
     </a>
   </li>
-  <li class="other-menu">
-    <div>
-      <span>&#x2022;</span>
-      <span>&#x2022;</span>
-      <span>&#x2022;</span>
-    </div>
-    <a href="">
-      <span>その他メニュー</span>
-    </a>
-  </li>
+  
 </ul>

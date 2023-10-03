@@ -1,3 +1,6 @@
+<?php
+  $footer = false;
+?>
 <?php include "../../layouts/header.php"?>
 <!-- Calling CSS Specifically to terms goes here -->
   <link rel="stylesheet" href="terms.css">

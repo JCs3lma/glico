@@ -1,3 +1,6 @@
+<?php
+  $footer = false;
+?>
 <?php include "../../layouts/header.php"?>
 
 <!-- Calling CSS Specifically to registration goes here -->

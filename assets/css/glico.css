@@ -69,6 +69,10 @@ body {
   margin-top: 1em !important;
 }
 
+.my-50px {
+  margin: 50px 0;
+}
+
 .flex {
   display: flex;
 }
@@ -282,10 +286,10 @@ ul.navigation-bar {
   list-style-type: none;
   padding: 0;
   position: absolute;
-  bottom: 0;
   width: 100%;
   height: 85px;
   margin-bottom: 0;
+  bottom: 0;
 }
 ul.navigation-bar li {
   flex: 1;
@@ -297,7 +301,7 @@ ul.navigation-bar li {
 ul.navigation-bar li a {
   text-decoration: none;
   color: #fff;
-  font-size: 12px;
+  font-size: 10px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -306,14 +310,34 @@ ul.navigation-bar img {
   display: block;
   margin: 0 auto;
 }
+ul.navigation-bar .questionnaire{
+  padding-right: 60px;
+}
+ul.navigation-bar .coupon{
+  padding-left: 60px;
+}
 ul.navigation-bar .coupon img{
   padding: 6px 0;
 }
-ul.navigation-bar .other-menu div > span{
+ul.navigation-bar .center-menu{
+  border-radius: 50%;
+  background-color: #f44337;
+  border: 9px solid #fff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  height: 80px;
+  width: 100px;
+}
+ul.navigation-bar .center-menu span{
+  position: absolute;
+  transform: translate(-50%);
+  width: 100px;
   color: #fff;
-  font-size: 44px;
-  letter-spacing: -8px;
-  line-height: 30px;
+  font-size: 10px;
+  bottom: 14px;
 }
 
 /* carousel */
@@ -359,4 +383,19 @@ ul.navigation-bar .other-menu div > span{
 .card .card-body .card-text {
   font-weight: normal;
   font-size: 13px;
+}
+
+/* Footer */
+.footer {
+  line-height: 1;
+  text-align: right;
+  font-size: 10px;
+  position: absolute;
+  right: 6px;
+  bottom: 0;
+}
+
+
+.footer.footer-bottom {
+  bottom: 90px;
 }

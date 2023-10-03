@@ -42,4 +42,15 @@
       $header = false;
     ?&gt;
   </pre>
+  <h4>Footer is not needed but needs its js?</h4>
+  <span>Put this to the top of your code to remove footer but still able to use glico.js</span>
+  <pre style="
+    background: black;
+    padding-top: 10px;
+    color: #fff;
+  ">
+    &lt;?php
+      $footer = false;
+    ?&gt;
+  </pre>
 <?php include "layouts/footer.php"?>

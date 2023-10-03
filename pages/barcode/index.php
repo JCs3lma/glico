@@ -1,5 +1,6 @@
 <?php 
   $header = false;
+  $footer = false;
 ?>
 <?php include "../../layouts/header.php"?>
 

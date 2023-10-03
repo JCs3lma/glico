@@ -37,5 +37,85 @@
 }
 
 #top .membership-rank .progress {
-    
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 10px 15px;
+}
+
+#top .membership-rank .progress ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+#top .membership-rank .progress ul li {
+    display: inline-block;
+    position: relative;
+    width: 15%;
+}
+
+#top .membership-rank .progress ul li span.circle {
+    width: 15px;
+    height: 15px;
+    background-color: var(--outline-dead-grey-text);
+    position: absolute;
+    border-radius: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 85%);
+}
+
+#top .membership-rank .progress ul li span.circle.active {
+    background-color: var(--danger);
+}
+
+#top .membership-rank .progress ul li span.circle.disabled {
+    background-color: var(--outline-dead-grey-text);
+}
+
+#top .membership-rank .progress .progress-bar-position {
+    margin-top: -12px;
+}
+
+#top .membership-rank .progress progress {
+    width: 100%;
+    border: 0;
+    height: 3px;
+    background-color: var(--outline-dead-grey);
+}
+
+#top .membership-rank .progress progress::-webkit-progress-value {
+    background-color: var(--danger);
+}
+
+#top .membership-rank .about-membership-rank {
+    text-align: right;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#top .menu {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#top .menu .item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#top .menu .item img {
+    width: 50px;
+}
+
+#top .menu .item label {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
