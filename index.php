@@ -21,7 +21,7 @@
       $navbar = true;
     ?&gt;
   </pre>
-  <h4>QR Code not working</h4>
+  <h4>QR Code not working?</h4>
   <span>Then run this command</span>
   <pre style="
     background: black;

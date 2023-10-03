@@ -1,92 +1,41 @@
-#top {
-    display: flex;
-    flex-direction: column;
-    height: calc(100vh - 180px);
-    padding: 15px;
-    row-gap: 20px;
+#top .carousel .card .card-img-top {
+    height: 102px;
 }
 
-.header {
-    font-weight: bold;
-}
-
-/* Notice Styles */
-.notice .card{
-    display: flex;
-    column-gap: 10px;
-}
-.notice {
-    display: flex;
-    flex-direction: column;
-    column-gap: 10px;
-}
-.notice .notice-card {
-    display: flex;
-    flex-direction: column;
-}
-.notice .notice-card .notice-header {
-    background-color: var(--card-bg);
-    border-radius: 20px 20px 0px 0px;
-    font-weight: bold;
-}
-.notice .notice-card .notice-body {
-    background-color: var(--container-bg);
-    border-radius: 0px 0px 20px 20px;
-}
-
-/* Membership rank Styles */
-.membership-rank {
-    display: flex;
-    flex-direction: column;
-}
-.membership-rank .rank-container {
-    display: flex;
-    justify-content: center;
-    background-color: var(--container-bg);
-    border-radius: 20px;
-    padding: 20px;
-}
-.membership-rank .rank-container .left-container,
-.membership-rank .rank-container .right-container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    flex: 1;
+#top .membership-rank {
     text-align: center;
-}
-
-.membership-rank .rank-container .right-container .rank-name,
-.membership-rank .rank-container .right-container .next-rank-count {
-    background-color: #fff;
-    border-radius: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 5px 10px 5px 10px;
-}
-
-
-.membership-rank .rank-container .current-rank {
-    display: flex;
-    /* justify-content: space-evenly; */
-    place-items: center;
     font-weight: bold;
-}
-.membership-rank .rank-container .current-rank .rank-name {
-    background-color: #fff;
-    padding: 5px 30px 5px 30px;
-    border-radius: 20px;
-}
-.membership-rank .rank-container .until-next-rank {
+    background-color: var(--container-bg);
+    padding: 20px;
+    border-radius: 32px;
     display: flex;
-    /* justify-content: space-evenly; */
-    place-items: center;
-    font-weight: bold;
+    flex-direction: column;
 }
-.membership-rank .rank-container .until-next-rank .next-rank-count {
-    background-color: #fff;
-    padding: 5px 30px 5px 30px;
-    border-radius: 20px;
-}
-/* Start shopping Styles */
 
-/* How to use Styles */
+#top .membership-rank .badge-container {
+    display: flex;
+}
+
+#top .membership-rank .badge-container .label-container {
+    flex: 0.6;
+}
+
+#top .membership-rank .badge-container label{
+    margin-right: 10px;
+}
+
+#top .membership-rank .badge-container .badge-container {
+    flex: 0.4;
+}
+
+#top .membership-rank .badge-container span.badge {
+    background-color: #fff;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+    width: 70px;
+    border-radius: 15px;
+}
+
+#top .membership-rank .progress {
+    
+}

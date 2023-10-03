@@ -34,7 +34,6 @@ body {
   margin: 0 auto;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
   color: #212529;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
@@ -99,6 +98,51 @@ body {
 
 .show {
   display: block !important;
+}
+
+/* Width */
+.w-10 {
+  width: 10% !important;
+}
+
+.w-25 {
+  width: 25% !important
+}
+.w-50 {
+  width: 50% !important
+}
+.w-75 {
+  width: 75% !important
+}
+.w-100 {
+  width: 100% !important
+}
+.w-auto {
+  width: auto !important
+}
+
+/* Height */
+.h-10 {
+  height: 10% !important;
+}
+.h-25 {
+  height: 25% !important
+}
+.h-height {
+  width: 50% !important
+}
+.h-75 {
+  height: 75% !important
+}
+.h-100 {
+  height: 100% !important
+}
+.h-auto {
+  height: auto !important
+}
+
+.h-45px {
+  height: 45px;
 }
 
 .round-container {
@@ -254,6 +298,9 @@ ul.navigation-bar li a {
   text-decoration: none;
   color: #fff;
   font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 ul.navigation-bar img {
   display: block;
@@ -267,4 +314,49 @@ ul.navigation-bar .other-menu div > span{
   font-size: 44px;
   letter-spacing: -8px;
   line-height: 30px;
+}
+
+/* carousel */
+.carousel {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Cards */
+.card {
+  min-height: 150px;
+  min-width: 254px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .card-img-top {
+  min-height: 102px;
+  background-color: var(--card-bg);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+
+.card .card-body {
+  background-color: var(--container-bg);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+}
+
+.card .card-body .card-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.card .card-body .card-text {
+  font-weight: normal;
+  font-size: 13px;
 }

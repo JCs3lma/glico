@@ -70,8 +70,8 @@
     </div>
     <div class="row">
       <div class="group-button-container">
-        <button class="btn danger">Save</button>
-        <button class="btn danger">Cancel</button>
+        <button class="btn danger w-50 h-45px">Save</button>
+        <button class="btn danger w-50 h-45px">Cancel</button>
       </div>
     </div>
   </div>
