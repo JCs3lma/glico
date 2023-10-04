@@ -38,6 +38,7 @@ body {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  position: relative;
 }
 
 /* General CSS */
@@ -88,12 +89,24 @@ body {
   overflow-x: scroll;
 }
 
+.flex-direction-column {
+  flex-direction: column !important;
+}
+
 .flex-direction-row {
   flex-direction: row !important;
 }
 
 .flex-direction-row > * {
   flex: 1;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.align-items-center {
+  align-items: center !important;
 }
 
 .hide {
@@ -285,11 +298,12 @@ ul.navigation-bar {
   display: flex;
   list-style-type: none;
   padding: 0;
-  position: absolute;
+  position: sticky;
   width: 100%;
   height: 85px;
   margin-bottom: 0;
   bottom: 0;
+  margin-top: 50px;
 }
 ul.navigation-bar li {
   flex: 1;
@@ -305,6 +319,7 @@ ul.navigation-bar li a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  display: block;
 }
 ul.navigation-bar img {
   display: block;
@@ -398,4 +413,67 @@ ul.navigation-bar .center-menu span{
 
 .footer.footer-bottom {
   bottom: 90px;
+}
+
+/* Radio Button */
+.glico-radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default radio button */
+.glico-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.glico-radio:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+/* When the radio button is checked, add a blue background */
+.glico-radio input:checked ~ .checkmark {
+  background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.glico-radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.glico-radio .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #000;
 }

@@ -1,10 +1,15 @@
-<?php include "layouts/header.php"?>
-  <div class="scrollable-y flex gap-10">
-    <a href="pages/terms" class="btn danger">Terms</a>
-    <a href="pages/registration" class="btn danger">Register</a>
-    <a href="pages/qr-reading" class="btn danger">QR Reading</a>
-    <a href="pages/barcode" class="btn danger">Barcode</a>
-    <a href="pages/top" class="btn danger">Top</a>
+<?php
+  $footer = false;
+  include "layouts/header.php"
+?>
+  <div class="flex flex-direction-column gap-10 align-items-center">
+    <a href="pages/terms" class="btn danger w-50">Terms</a>
+    <a href="pages/registration" class="btn danger w-50">Register</a>
+    <a href="pages/qr-reading" class="btn danger w-50">QR Reading</a>
+    <a href="pages/barcode" class="btn danger w-50">Barcode</a>
+    <a href="pages/top" class="btn danger w-50">Top</a>
+    <a href="pages/cart" class="btn danger w-50">Cart</a>
+    <a href="pages/how-to-use" class="btn danger w-50">How to use</a>
   </div>
   <br>
   <br>

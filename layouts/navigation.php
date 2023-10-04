@@ -1,7 +1,7 @@
 <ul class="navigation-bar">
   <li class="top">
     <img src="<?= $source;?>/assets/img/top-icon.png">
-    <a href="">
+    <a href="/pages/top">
       <span>トップページ</span>
     </a>
   </li>
@@ -12,7 +12,9 @@
     </a>
   </li>
   <li class="center-menu">
-    <span>マイページ</span>
+    <a href="/glico">
+      <span>マイページ</span>
+    </a>
   </li>
   <li class="coupon">
       <img src="<?= $source;?>/assets/img/coupon-icon.png">
