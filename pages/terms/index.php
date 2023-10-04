@@ -1,4 +1,5 @@
 <?php
+  $navbar = true;
   $footer = false;
 ?>
 <?php include "../../layouts/header.php"?>
@@ -7,11 +8,6 @@
 
 <!-- Content Goes Here -->
   <div id="terms" class="container sticky-container">
-    <div class="row center">
-      <h3>Terms and Conditions</h3>
-      <p>This is a very long description that goes up to 3 rows
-        when mobile and not sure yet in desktop but that is the goal</p>
-    </div>
     <div class="row sticky">
       <div class="round-container">
         <div class="terms-content__title">利用規約</div>
@@ -39,9 +35,6 @@
           ダミーテキストダミーテキストダミーテキスト
           ダミーテキストダミーテキストダミーテキスト
           ダミーテキストダミーテキストダミーテキスト
-        </div>
-        <div class="terms-content__footer">
-          <button class="btn danger w-50 h-45px">Accept</button>
         </div>
       </div>
     </div>
