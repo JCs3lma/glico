@@ -180,7 +180,7 @@
         <a href="" class="about-membership-rank">会員ランクについて</a>
       </div>
       <div class="amount-container">
-        <div class="flex">
+        <div class="flex flex-1">
           <p class="title">お支払い金額</p>
           <div class="total">
             <div class="total-container">750</div>
@@ -189,13 +189,20 @@
         </div>
       </div>
       <div class="payment-method">
-        <div class="row">
-          <p>お支払い方法</p>
+        <div class="row flex align-items-center">
+          <p class="title">お支払い方法</p>
+          <label class="glico-radio m-0">
+            <p>
+              <img src="<?=$source.'/assets/img/paypay.png'?>" alt="paypay">
+            </p>
+            <input type="radio" name="paypay">
+            <span class="checkmark"></span>
+          </label>
         </div>
       </div>
     </div>
   </div>
-  <div class="row action-buttons">
+  <div class="action-buttons">
     <div class="group-button-container">
       <button class="btn danger w-50 h-45px">商品選択に戻る</button>
       <button class="btn danger w-50 h-45px">支払手続き</button>

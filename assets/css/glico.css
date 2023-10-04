@@ -78,6 +78,10 @@ body {
   display: flex;
 }
 
+.flex-1 {
+  flex: 1;
+}
+
 .gap-10 {
   gap: 10px;
 }
