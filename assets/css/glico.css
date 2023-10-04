@@ -18,6 +18,7 @@ html,
 body {
   margin: 0;
   font-family: Yu Gothic;
+  font-weight: 700;
 }
 
 /* Removing Scroll bar to all elements */
@@ -33,7 +34,7 @@ html {
 body {
   margin: 0 auto;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
   color: #212529;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
@@ -68,6 +69,10 @@ body {
 
 .mt-10 {
   margin-top: 1em !important;
+}
+
+.mb-1em {
+  margin-bottom: 1em !important;
 }
 
 .my-50px {
@@ -302,7 +307,7 @@ ul.navigation-bar {
   display: flex;
   list-style-type: none;
   padding: 0;
-  position: sticky;
+  position: fixed;
   width: 100%;
   height: 85px;
   margin-bottom: 0;
@@ -324,6 +329,7 @@ ul.navigation-bar li a {
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
+  font-weight: 400;
 }
 ul.navigation-bar img {
   display: block;
@@ -357,6 +363,7 @@ ul.navigation-bar .center-menu span{
   color: #fff;
   font-size: 10px;
   bottom: 14px;
+  font-weight: 400;
 }
 
 /* carousel */

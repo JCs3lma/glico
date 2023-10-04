@@ -9,6 +9,7 @@
     <a href="pages/barcode" class="btn danger w-50">Barcode</a>
     <a href="pages/top" class="btn danger w-50">Top</a>
     <a href="pages/cart" class="btn danger w-50">Cart</a>
+    <a href="pages/cart/checkout" class="btn danger w-50">Checkout</a>
     <a href="pages/how-to-use" class="btn danger w-50">How to use</a>
   </div>
   <br>

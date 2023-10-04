@@ -2,7 +2,7 @@
   height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 14px 20px;
   justify-content: space-between;
 }
 
@@ -14,7 +14,7 @@
 }
 
 #cart .action-buttons {
-  margin: 20px 0 5px 0;
+  margin-top: 20px;
 }
 
 #cart .round-container .cart-items {

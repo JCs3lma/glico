@@ -204,8 +204,8 @@
   </div>
   <div class="action-buttons">
     <div class="group-button-container">
-      <button class="btn danger w-50 h-45px">商品選択に戻る</button>
-      <button class="btn danger w-50 h-45px">支払手続き</button>
+      <a href="<?=$source.'/pages/top';?>" class="btn danger w-50 h-45px">商品選択に戻る</a>
+      <a href="<?=$source.'/pages/cart/checkout';?>" class="btn danger w-50 h-45px">支払手続き</a>
     </div>
   </div>
 </div>

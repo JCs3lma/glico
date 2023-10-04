@@ -1,0 +1,190 @@
+body {
+  height: 100vh;
+}
+#checkout.full-screen {
+  height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+#checkout .round-container {
+  height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 20px
+}
+
+#checkout .action-buttons {
+  margin: 20px 0 5px 0;
+}
+
+#checkout .round-container .checkout-items {
+  height: 346px;
+  border-bottom: 1px solid var(--card-bg);
+  overflow-y: scroll;
+}
+
+#checkout .round-container .coupons-list {
+  flex: 0.7;
+  position: relative;
+}
+
+#checkout .round-container .amount-container {
+  border-bottom: 1px solid var(--card-bg);
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+  flex-direction: column;
+  padding: 18px 10px;
+}
+
+#checkout .round-container .payment-method {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+#checkout .checkout-items .item {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+#checkout .checkout-items .item-details {
+  display: flex;
+  flex: 1;
+  background: #fff;
+  border-radius: 24px;
+  padding: 10px 20px;
+}
+
+#checkout .checkout-items .item-details .item-content {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#checkout .checkout-items .item-details .item-content .product-name,
+#checkout .checkout-items .item-details .item-content .product-short-description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150px;
+}
+
+#checkout .checkout-items .item-details .item-multiplier {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#checkout .checkout-items .item-details .item-multiplier .prize > * {
+  text-align: right;
+  margin: 0 12px 0 0;
+}
+
+#checkout .checkout-items .item-details .item-multiplier .prize span {
+  font-size: 12px;
+}
+
+#checkout .checkout-items .item-action {
+  flex: 0.1;
+  position: relative;
+}
+
+
+#checkout .coupons-list .about-membership-rank {
+  text-align: right;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#checkout .coupons-list .title {
+  flex: 0.4;
+}
+
+#checkout .coupons-list .coupons {
+  flex: 0.7;
+  height: 230px;
+  overflow-x: scroll;
+  margin: 20px 0;
+}
+
+
+#checkout .coupons-list .coupons ul {
+  padding: 0;
+  margin: 0;
+}
+
+#checkout .coupons-list .coupons ul li {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+#checkout .coupons-list .coupons ul li label.glico-radio p {
+  margin: 0;
+  font-size: 12px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 170px;
+}
+
+#checkout .coupons-list .coupons ul li label.glico-radio input:checked ~ p {
+  background-color: unset !important;
+}
+
+#checkout .amount-container .item {
+  display: flex;
+}
+
+#checkout .amount-container .item .name {
+  flex: 0.64;
+}
+
+#checkout .amount-container .item .amount {
+  text-align: right;
+  flex: 0.3;
+}
+
+#checkout .amount-container .title {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+#checkout .amount-container .total {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#checkout .amount-container .total .total-container{
+  width: 100px;
+  text-align: right;
+  background: #fff;
+  padding: 5px;
+  border-radius: 12px;
+  font-size: 24px;
+}
+
+#checkout .payment-method p.title {
+  flex: 1;
+}
+
+#checkout .payment-method label p {
+  margin: 0;
+  
+}
