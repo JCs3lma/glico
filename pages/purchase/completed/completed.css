@@ -1,0 +1,40 @@
+#purchase-completed {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.purchase-row {
+    flex: 1;
+}
+
+.first-details {
+    display: flex;
+    justify-content: center;
+}
+
+.details-divider {
+    margin: 0 10px 0 10px;
+    padding-bottom: 10px;
+}
+
+.second-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+}
+
+.yen {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.payment {
+    font-size: 20px;
+}
+
+#purchase-completed .row .group-button-container {
+    display: inline-flex;
+    padding: 20px 0 20px 0;
+}
