@@ -1,0 +1,63 @@
+#purchase-history {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 97px);
+}
+
+#purchase-history .card.row {
+    flex: 1;
+}
+
+.overflow-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.card-container {
+    background-color: var(--container-bg);
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.purchase-date-time {
+    margin-bottom: 10px;
+}
+
+.white-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.details-flex {
+    display: flex;
+    column-gap: 10px;
+}
+
+.padding-div {
+    padding: 0 10px 0 10px;
+}
+
+.purchase-details {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    row-gap: 10px;
+}
+
+.first-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-details {
+    display: flex;
+    column-gap: 15px;
+}
