@@ -12,6 +12,9 @@
     <a href="pages/cart/checkout" class="btn danger w-50">Checkout</a>
     <a href="pages/how-to-use" class="btn danger w-50">How to use</a>
     <a href="pages/faq" class="btn danger w-50">FAQ</a>
+    <a href="pages/related-product" class="btn danger w-50">Related Product</a>
+    <a href="pages/content-list" class="btn danger w-50">Content List</a>
+    <a href="pages/survey" class="btn danger w-50">Survey</a>
   </div>
   <br>
   <br>
