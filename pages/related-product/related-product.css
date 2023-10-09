@@ -1,0 +1,26 @@
+#related-product{
+    padding-bottom: 135px;
+}
+.related-product-wrapper{
+    background-color: #faf3f0;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.related-product-wrapper h5{
+    font-size: 20px;
+    text-align: center;
+}
+.related-product-wrapper > div{
+    margin-bottom: 30px;
+}
+.related-product-wrapper p{
+    font-size: 12px;
+    color: #000;
+    font-family: 'Yu Gothic';
+    display: flex;
+    margin-bottom: 0;
+}
+.related-product-wrapper p label,
+.related-product p span{
+    float: left;
+}

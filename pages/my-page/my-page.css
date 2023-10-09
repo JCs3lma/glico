@@ -1,0 +1,123 @@
+#my-page .carousel .card .card-img-top {
+  height: 102px;
+}
+
+#my-page .membership-rank,
+#my-page .member-info {
+  text-align: center;
+  font-weight: bold;
+  background-color: var(--container-bg);
+  padding: 20px;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#my-page .membership-rank .badge-container {
+  display: flex;
+}
+
+#my-page .membership-rank .badge-container .label-container {
+  flex: 0.6;
+}
+
+#my-page .membership-rank .badge-container label{
+  margin-right: 10px;
+}
+
+#my-page .membership-rank .badge-container .badge-container {
+  flex: 0.4;
+}
+
+#my-page .membership-rank .badge-container span.badge {
+  background-color: #fff;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+  width: 70px;
+  border-radius: 15px;
+}
+
+#my-page .membership-rank .progress {
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 10px 15px;
+}
+
+#my-page .membership-rank .progress ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+#my-page .membership-rank .progress ul li {
+  display: inline-block;
+  position: relative;
+  width: 15%;
+}
+
+#my-page .membership-rank .progress ul li span.circle {
+  width: 15px;
+  height: 15px;
+  background-color: var(--outline-dead-grey-text);
+  position: absolute;
+  border-radius: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 85%);
+}
+
+#my-page .membership-rank .progress ul li span.circle.active {
+  background-color: var(--danger);
+}
+
+#my-page .membership-rank .progress ul li span.circle.disabled {
+  background-color: var(--outline-dead-grey-text);
+}
+
+#my-page .membership-rank .progress .progress-bar-position {
+  margin-top: -12px;
+}
+
+#my-page .membership-rank .progress progress {
+  width: 100%;
+  border: 0;
+  height: 3px;
+  background-color: var(--outline-dead-grey);
+}
+
+#my-page .membership-rank .progress progress::-webkit-progress-value {
+  background-color: var(--danger);
+}
+
+#my-page .membership-rank .about-membership-rank {
+  text-align: right;
+  text-decoration: none;
+  color: black;
+}
+
+#my-page .membership-rank .link {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+#my-page .member-info table {
+  margin-bottom: 20px;
+}
+
+#my-page .member-info table tr td:nth-child(1) {
+  text-align: left;
+}
+
+#my-page .member-info table tr td:nth-child(2) {
+  text-align: right;
+}
+
+#my-page .member-info button.fix {
+  width: 100px;
+  height: 48px;
+  margin: 0 auto;
+}

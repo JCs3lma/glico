@@ -1,0 +1,114 @@
+#coupon {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 85px);
+}
+
+.available-coupon-bg {
+    background-color: var(--container-bg);
+}
+
+.used-or-expired-bg {
+    background-color: var(--card-bg);
+}
+
+.nav-row {
+    background-color: var(--container-bg);
+    flex: 0.1;
+}
+
+.card-row {
+    flex: 1;
+}
+
+.nav-header {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    column-gap: 30px;
+    font-size: 12px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.active {
+    position: absolute;
+    border-bottom: 3px solid red;
+    width: 100%;
+    bottom: 0;
+}
+
+#coupon .row .container {
+    height: calc(100% - 20px);
+}
+
+.overflow-container {
+    height: 100%;
+}
+
+#coupon-content {
+    height: calc(100vh - 169px);
+    overflow-y: auto;
+}
+
+.coupon-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.card-header {
+    display: flex;
+    padding: 0 20px 0 20px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.coupon-name {
+    font-size: 20px;
+}
+
+.coupon-status {
+    font-size: 15px;
+}
+
+.white-container {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.coupon-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 12px;
+}
+
+.first-details {
+    display: flex;
+    column-gap: 5px;
+}
+
+.content-title {
+    width: 12%;
+}
+
+.text-content {
+    width: 100%;
+    word-break: keep-all;
+    text-align: justify;
+}
+
+.second-details {
+    display: flex;
+    column-gap: 5px;
+}

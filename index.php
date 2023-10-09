@@ -1,11 +1,21 @@
-<?php include "layouts/header.php"?>
-  <div class="scrollable-y flex gap-10">
-  <a href="pages/faq" class="btn danger">FAQ</a>
-    <a href="pages/terms" class="btn danger">Terms</a>
-    <a href="pages/registration" class="btn danger">Register</a>
-    <a href="pages/qr-reading" class="btn danger">QR Reading</a>
-    <a href="pages/barcode" class="btn danger">Barcode</a>
-    <a href="pages/top" class="btn danger">Top</a>
+<?php
+  $footer = false;
+  include "layouts/header.php"
+?>
+  <div class="flex flex-direction-column gap-10 align-items-center">
+    <a href="pages/terms" class="btn danger w-50">Terms</a>
+    <a href="pages/registration" class="btn danger w-50">Register</a>
+    <a href="pages/qr-reading" class="btn danger w-50">QR Reading</a>
+    <a href="pages/barcode" class="btn danger w-50">Barcode</a>
+    <a href="pages/top" class="btn danger w-50">Top</a>
+    <a href="pages/cart" class="btn danger w-50">Cart</a>
+    <a href="pages/cart/checkout" class="btn danger w-50">Checkout</a>
+    <a href="pages/how-to-use" class="btn danger w-50">How to use</a>
+    <a href="pages/faq" class="btn danger w-50">FAQ</a>
+    <a href="pages/related-product" class="btn danger w-50">Related Product</a>
+    <a href="pages/content-list" class="btn danger w-50">Content List</a>
+    <a href="pages/survey" class="btn danger w-50">Survey</a>
+    <a href="pages/my-page" class="btn danger w-50">My Page</a>
   </div>
   <br>
   <br>
@@ -41,6 +51,17 @@
   ">
     &lt;?php
       $header = false;
+    ?&gt;
+  </pre>
+  <h4>Footer is not needed but needs its js?</h4>
+  <span>Put this to the top of your code to remove footer but still able to use glico.js</span>
+  <pre style="
+    background: black;
+    padding-top: 10px;
+    color: #fff;
+  ">
+    &lt;?php
+      $footer = false;
     ?&gt;
   </pre>
 <?php include "layouts/footer.php"?>

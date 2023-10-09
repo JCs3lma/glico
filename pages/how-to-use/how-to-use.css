@@ -1,0 +1,77 @@
+#how-to-use .container{
+    padding: 0 20px;
+}
+.box-bg{
+    background-color: #faf3f0;
+    border-radius: 35px;
+    text-align: center;
+    padding: 25px 15px;
+}
+.box-bg span{
+    font-size: 12px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.upload-img{
+    width: 100%;
+    background: #d2d2d2;
+    border-radius: 25px;
+    height: 170px;
+    display: table;
+    margin-top: 25px;
+}
+.how-to-use-list h5{
+    font-size: 20px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.accordion {
+    background-color: #FAF3F0;
+    color: #444;
+    cursor: pointer;
+    padding: 30px 25px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 8px;
+    position: relative;
+  }
+.accordion:after {
+    content: '+';
+    font-size: 90px;
+    margin-left: 5px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: #707070;
+}
+.active:after {
+    content: "-"; 
+    transform: translateY(-58%);
+    right: 27px;
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.panel .panel-data{ 
+    background-color: #FAF3F0;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 15px;
+    font-size: 12px;
+}
+.panel .panel-title{
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+}

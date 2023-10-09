@@ -87,12 +87,54 @@
                         <span class="circle"></span>
                     </li>
                 </ul>
-                <progress id="file" value="32" max="100"> 32% </progress>
+                <div class="progress-bar-position">
+                    <progress id="progressBar" max="100"></progress>
+                </div>
             </div>
             <a href="" class="about-membership-rank">会員ランクについて</a>
         </div>
     </div>
+    <div class="row my-50px">
+        <div class="menu">
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="bag" class="icon">
+                <label>お買い物方法</label>
+            </div>
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="horn" class="icon">
+                <label>お知らせ</label>
+            </div>
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="pencil" class="icon">
+                <label>アンケート</label>
+            </div>
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="calculator" class="icon">
+                <label>商品情報</label>
+            </div>
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="newspaper" class="icon">
+                <label>コラム</label>
+            </div>
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="translator" class="icon">
+                <label>よくあるご質問</label>
+            </div>
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="book" class="icon">
+                <label>利用規約</label>
+            </div>
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="frog" class="icon">
+                <label>オフィスグリコHP</label>
+            </div>
+            <div class="item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="direct" class="icon">
+                <label></label>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- End of Content -->
-
+<script src="top.js"></script>
 <?php include "../../layouts/footer.php"?>

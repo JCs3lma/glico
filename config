@@ -1,0 +1,5 @@
+#activehacker account
+Host github.com
+	HostName github.com
+	User git
+	IdentityFile ~/xampp/htdocs/glico/id_rsa_glico

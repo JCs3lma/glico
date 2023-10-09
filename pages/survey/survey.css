@@ -1,0 +1,40 @@
+.banner{
+    background-color: #fff;
+    color:#fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding-top: 20px;
+}
+.banner h4{
+    background-color: #5138A4;
+    padding: 15px 0 30px 55px;
+    margin: 0;
+}
+#survey{
+    padding-bottom: 120px;
+}
+#survey .container{
+    padding-top: 120px;
+}
+.survey-box{
+    background-color: #FAF3F0;
+    border-radius: 25px;
+    padding: 10px 25px 28px;
+    margin-bottom: 25px;
+}
+.survey-box .survey-data{
+    font-size: 12px;
+}
+.survey-header{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.survey-header .survey-title{
+    float:left;
+}
+.survey-header p{
+    float: right;
+    margin-bottom: 0;
+}

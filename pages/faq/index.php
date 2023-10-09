@@ -1,6 +1,7 @@
-  <?php
-      $navbar = true;
-    ?>
+<?php
+  $navbar = true;
+  $footer = false;
+?>
 <?php include "../../layouts/header.php"?>
 <!-- Calling CSS Specifically to terms goes here -->
   <link rel="stylesheet" href="faq.css">
