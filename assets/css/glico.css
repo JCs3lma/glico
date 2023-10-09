@@ -40,6 +40,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   position: relative;
+  padding-bottom: 140px;
 }
 
 /* General CSS */
@@ -73,6 +74,10 @@ body {
 
 .mb-1em {
   margin-bottom: 1em !important;
+}
+
+.mb-20px {
+  margin-bottom: 20px !important;
 }
 
 .my-50px {
@@ -313,6 +318,7 @@ ul.navigation-bar {
   margin-bottom: 0;
   bottom: 0;
   margin-top: 50px;
+  z-index: 1;
 }
 ul.navigation-bar li {
   flex: 1;
@@ -418,7 +424,7 @@ ul.navigation-bar .center-menu span{
   font-size: 10px;
   position: absolute;
   right: 6px;
-  bottom: 5px;
+  bottom: 140px;
 }
 
 

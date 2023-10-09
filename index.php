@@ -15,6 +15,7 @@
     <a href="pages/related-product" class="btn danger w-50">Related Product</a>
     <a href="pages/content-list" class="btn danger w-50">Content List</a>
     <a href="pages/survey" class="btn danger w-50">Survey</a>
+    <a href="pages/my-page" class="btn danger w-50">My Page</a>
   </div>
   <br>
   <br>
